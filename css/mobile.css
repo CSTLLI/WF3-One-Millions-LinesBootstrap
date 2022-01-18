@@ -1,0 +1,52 @@
+/* ************************************************************************************** */
+/*                                                                                        */																					  
+/* Project: One-Millions-LinesBootstrap                 / $$      /$$ /$$$$$$$$ /$$$$$$   */
+/*                  			                        | $$  /$ | $$| $$_____//$$__  $$  */
+/* mobile.css                                     	    | $$ /$$$| $$| $$     |__/  \ $$  */
+/*                                                  	| $$/$$ $$ $$| $$$$$     /$$$$$/  */
+/* By: vcastell <valeriocastellipro@gmail.com>	        | $$$$_  $$$$| $$__/    |___  $$  */
+/*                                              		| $$$/ \  $$$| $$      /$$  \ $$  */
+/* Created: 2022/01/18 11:47:34 vcastell     	        | $$/   \  $$| $$     |  $$$$$$/  */
+/* Updated: 2022/01/18 11:47:52 vcastell                |__/     \__/|__/      \______/   */
+/*                                                                    				      */
+/******************************************************************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+:root{
+	--white: #ffffff;
+	--black: #000000;
+	--orange: #ff4e46;
+	--gray: #797878;
+	--gray-light: #f5f5f5;
+	--gray-light2: #363636;
+	--gray-dark: #272727;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+/* ### HEADER ###  */
+
+header nav{
+	background-color: var(--gray-dark);
+}
+
+#burger{
+	border-radius: 5px;
+	border: 1px solid var(--gray-light2);
+	padding: 3px 10px;
+	text-decoration: none;
+	color: var(--white);
+}
+
+header .section1{
+	background-image: url(../images/hero-image.jpg);
+	background-position: 0% 0%;
+	color: var(--white);
+}
