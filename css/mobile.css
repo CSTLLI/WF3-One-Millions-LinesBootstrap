@@ -23,18 +23,30 @@
 	--gray-dark: #272727;
 }
 
+*{
+	font-family: 'Arvo', sans-serif;
+	font-size: 16px;
+}
+
 .bold{
 	font-weight: bold;
 }
 
-.uppercase{
-	text-transform: uppercase;
+.separator{
+	width: 135px;
+	margin: auto;
+	margin-bottom: 10px;
+	border-bottom: 1px solid var(--orange);
 }
 
 /* ### HEADER ###  */
 
 header nav{
 	background-color: var(--gray-dark);
+}
+
+header nav ul li a{
+	color: var(--gray);
 }
 
 #burger{
@@ -47,6 +59,43 @@ header nav{
 
 header .section1{
 	background-image: url(../images/hero-image.jpg);
-	background-position: 0% 0%;
+	background-size: cover;
 	color: var(--white);
+}
+
+.circle{
+	border: 1px solid var(--gray);
+	border-radius: 50%;
+    width: 85px;
+    padding: 30px 10px;
+    margin: auto;
+    display: flex;
+	justify-content: center;
+	background: var(--gray-dark);
+}
+
+.circle i{
+	color: white;
+	font-size: 1.6rem;
+}
+
+.btn-gray{
+	text-decoration: none;
+	color: var(--orange);
+	font-size: 1rem;
+	border: 1px solid #dcdcdc;
+	border-radius: 5px;
+	padding: 10px 20px;
+	text-align: center;
+	background-color: var(--white);
+}
+
+.section3{
+	background-color: var(--gray-light);
+}
+
+/* ### FOOTER ###  */
+
+footer{
+	background-color: var(--orange);
 }
